@@ -1,7 +1,7 @@
 include(vcpkg_common_functions)
 set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/libmicrohttpd-0.9.55)
 vcpkg_download_distfile(ARCHIVE
-    URLS "ftp://ftp.gnu.org/gnu/libmicrohttpd/libmicrohttpd-0.9.55.tar.gz"
+    URLS "ftp://ftpmirror.gnu.org/gnu/libmicrohttpd/libmicrohttpd-0.9.55.tar.gz"
     FILENAME "libmicrohttpd-0.9.55.tar.gz"
     SHA512 b410e7253d7c98c40b5e8b8dcd1f93bcbb05c88717190e8dae73073d36465e8e5cfa53c6c5098de60051a5ec64dc423fd94f4b06537d8146b744aa99f5a0b173
 )

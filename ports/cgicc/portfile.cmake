@@ -6,7 +6,7 @@ if (VCPKG_LIBRARY_LINKAGE STREQUAL dynamic)
   endif()
 set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/cgicc-3.2.19)
 vcpkg_download_distfile(ARCHIVE
-    URLS "http://ftp.gnu.org/gnu/cgicc/cgicc-3.2.19.tar.gz"
+    URLS "http://ftpmirror.gnu.org/gnu/cgicc/cgicc-3.2.19.tar.gz"
     FILENAME "cgicc-3.2.19.tar.gz"
     SHA512 c361923cf3ac876bc3fc94dffd040d2be7cd44751d8534f4cfa3545e9f58a8ec35ebcd902a8ce6a19da0efe52db67506d8b02e5cc868188d187ce3092519abdf
 )

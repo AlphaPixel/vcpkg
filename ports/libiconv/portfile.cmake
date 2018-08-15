@@ -8,7 +8,7 @@ endif()
 include(vcpkg_common_functions)
 set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/libiconv-1.15)
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://ftp.gnu.org/gnu/libiconv/libiconv-1.15.tar.gz"
+    URLS "https://ftpmirror.gnu.org/gnu/libiconv/libiconv-1.15.tar.gz"
     FILENAME "libiconv-1.15.tar.gz"
     SHA512 1233fe3ca09341b53354fd4bfe342a7589181145a1232c9919583a8c9979636855839049f3406f253a9d9829908816bb71fd6d34dd544ba290d6f04251376b1a
 )

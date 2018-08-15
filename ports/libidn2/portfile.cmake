@@ -5,7 +5,7 @@ set(IDN2_FILENAME libidn2-${IDN2_VERSION}.tar.gz)
 set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/libidn2-${IDN2_VERSION})
 
 vcpkg_download_distfile(ARCHIVE
-    URLS "http://ftp.gnu.org/gnu/libidn/${IDN2_FILENAME}"
+    URLS "http://ftpmirror.gnu.org/gnu/libidn/${IDN2_FILENAME}"
     FILENAME "${IDN2_FILENAME}"
     SHA512 1e51bd4b8f8907531576291f1c2a8865d17429b4105418b4c98754eb982cd1cbb3adbeab4ec0c1c561d2dba11d876c7c09e5dc5b315c55a2c24986d7a2a3b4d2
 )
